@@ -26,4 +26,28 @@ menu lis   display: flex;
   margin: 0 15px;
   text-decoration: none;
   color: #333; /* Vous pouvez remplacer cette couleur selon votre thème */
+}section {
+  padding: 2rem 0;
+  border-top: 1px solid #ccc; /* Couleur grise claire pour une séparation discrète */
+input,
+textarea {
+    width: 100%;
+          box-sizing: border-box;
+                 padding: 0.75rem;
+                        border: 1px solid #ccc;
+                                 margin-bottom: 1rem;
+                                     font-size: 1rem;
 }
+button[type="submit"] {
+          background-color: #007BFF; /* Bleu vif, modifiable selon votre thème */
+                 color: #fff;
+                          border: none;
+                               padding: 0.75rem 1.5rem;
+                                       font-size: 1rem;
+                                                 cursor: pointer;
+                                                         transition: background-color 0.3s ease;
+}
+button[type="submit"]:hover {
+  background-color: #0056b3; /* Teinte plus foncée au survol */
+}
+
