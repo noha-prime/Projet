@@ -1,9 +1,29 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aqua;
+      background-color: aqua;
     color: blue;
     margin: 0 auto;
 }
 .container {
     max-width: 960px;
-}<<div class="container">header< footer/div>
+       }<<div class="container">header< footer/      < div       
+header {
+  display: flex;
+
+}header {
+      display: flex;
+       justify-content: space-between; /* pousse les éléments aux extrémités */
+          align-items: center; /* centre les éléments verticalement */
+                padding: 1rem 2rem;
+                              background-color: white;
+}<ul> nav
+menu lis   display: flex;
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333; /* Vous pouvez remplacer cette couleur selon votre thème */
+}
